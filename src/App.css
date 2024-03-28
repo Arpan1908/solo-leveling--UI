@@ -1,0 +1,100 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.solo-leveling-container {
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.solo-leveling-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.solo-leveling-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.solo-leveling-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.solo-leveling-button:hover {
+  background-color: #45a049;
+}
+
+.solo-leveling-description {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cont{
+  gap: 60px;
+}
+
+.conti{
+  gap: 60px;
+  font-size: 10px;
+}
+
+/* 
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 255, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px 10px rgba(0, 0, 255, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 255, 0.5);
+  }
+} */
+
+
+.glowing-hr {
+  border: none;
+  height: 1px; /* Adjust height as needed */
+  background-color: rgba(236, 236, 244, 0.5); /* Blue color with opacity */
+  box-shadow: 0 0 10px 5px rgba(0, 0, 255, 0.5); /* Blue glow effect */
+  border-radius: 5px; /* Border radius to soften edges */
+}
+
+.solo-progress-bar {
+  width: 100%;
+  height: 5px; /* Adjust the height of the progress bars */
+  appearance: none;
+  background-color: transparent;
+  border: none;
+}
+
+.solo-progress-bar::-webkit-progress-bar {
+  background-color: rgba(255, 255, 255, 0.2); /* Background color of the progress bar */
+}
+
+.solo-progress-bar::-webkit-progress-value {
+  background-color: #4CAF50; /* Color of the filled portion of the progress bar */
+}
+
+.solo-progress-bar::-moz-progress-bar {
+  background-color: #4CAF50; /* Color of the filled portion of the progress bar */
+}
